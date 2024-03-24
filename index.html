@@ -5,19 +5,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <title>Personal Blog</title>
-    <link rel="stylesheet" href="/repos/personal-blog/assets/css/styles.css" />
+    <link rel="stylesheet" href="/repos/personal-blog/assets/css/form.css" />
 </head>
 
 <body>
-    <div class="top">
-        <nav>
-            <h1 class="logo">My Blog</h1>
-            <ul>
-                <li></li>
-            </ul>
+    <header id="header">
+        <nav class="navbar container">
+            <h2 class="logo">My Blog Page</h2>
+            <div class="menu" id="menu">
+                <button class="btn place-items-center" id="theme-toggle-btn"></button>
+                <i class="sun">	&#x1F31E</i>
+                <i class="moon">&#x1F319</i>
+
+            </div>
+
+        </nav>
+            
            
         </nav>
-    </div>
+    </header>
     
     
     <section class="blog">
@@ -27,9 +33,25 @@
         </div>
         <div id="r-side">
             <h4>What's on you mind?</h4>
-            <div id="username">User Name</div>
-            <div id="title">Title</div>
-            <div id="content">Content</div>
+            <form action="/repos/personal-blog/assets/js/logic.js" method="post">
+                <ul>
+                    <li>
+                        <label for="name">Username:</label>
+                        <input type="text" id="name" name="user_name">
+                    </li>
+                    <li>
+                        <label for="title">Title</label>
+                        <input type="text" id="title" name="user_title">
+                    </li>
+                    <li>
+                        <label for="content">Content</label>
+                        <textarea id="content" name="user_content"></textarea>
+                    </li>
+                    <li class="button">
+                        <button type="submit">Submit</button>
+                    </li>
+                </ul>
+            </form>
 
             
         </div>
