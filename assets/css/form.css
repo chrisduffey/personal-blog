@@ -29,11 +29,16 @@ nav {
 
 .blog #l-side {
     display: flex;
-    flex-direction:column ; 
+    flex-direction:column ;
+    justify-content: center; 
     width: 50%;
     border-right: 5px solid black;
     border-top:5px solid black ;
     padding: 5px;
+    background-image: url(../Images/waterfall.webp);
+    background-size: cover;
+    background-position: center;
+    
     /* height: 50vh; */
     
     
@@ -41,16 +46,22 @@ nav {
 
 h3 {
     font-size: 40px;
+    color: white;
     letter-spacing: 1px;
     display: flex;
+    align-content: center;
     justify-content:center;
-    margin-left: 50px;
+    margin-left: 0px;
+    margin-top: 80px;
 }
 
-.blog div img {
+/* .blog div img {
+    display: flex;
+    justify-content: center;
     align-content: center;
     width: 600px;
-    padding-left: 50px;
+    padding-left: 50px; */
+    
 
 }
 
@@ -59,6 +70,7 @@ h4 {
     justify-content: center;
     font-size: 40px;
     letter-spacing: 1px;
+    margin-top: 80px;
 }
 
 .blog #r-side {
@@ -80,6 +92,7 @@ h4 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 form {
@@ -87,14 +100,21 @@ form {
     padding: 5px;
 
 }
-form li +li {
-    margin-top: 10px;
+form li + li {
+    margin-top: 40px;
+    
 }
 
 label {
     display: inline-block;
     min-width: 100px;
     text-align: left;
+    
+}
+
+input,textarea {
+    width: 500px;
+    
 }
 
 textarea {
