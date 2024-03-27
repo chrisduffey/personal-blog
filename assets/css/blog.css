@@ -14,5 +14,18 @@ nav {
 
 }
 
-.blog-sections
 
+body {
+    min-height: 100vh;
+}
+
+.
+
+footer ul li {
+    position: absolute;
+    bottom: 0;
+    height: 200px;
+    width: 100%;
+
+
+}
