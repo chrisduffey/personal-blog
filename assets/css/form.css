@@ -1,8 +1,26 @@
+:root {
+    --clr-dark: #060a1463;
+    --clr-light: #fcfcfc;
+}
+
 *{
     padding: 0;
     margin:0;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     box-sizing: border-box;
+}
+
+body{
+    height 100%
+}
+
+.dark-mode {
+    --clr-light: #070a13;
+    --clr-dark: #f1f5f9;
+}
+body {
+    background-color: var(--clr-light);
+    color: var(--clr-dark);
 }
 
 nav {
@@ -43,6 +61,23 @@ nav {
     
     
 }
+
+#darkLight {
+    padding: 10px 20px;
+    background-color: rgb(10, 10, 10);
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+#darkLight.active {
+    background-color: #007bff;
+    color: white;
+}
+
+#darkLight {
+    transition: background-color 0.3s ease;
+} 
+
 
 h3 {
     font-size: 40px;
