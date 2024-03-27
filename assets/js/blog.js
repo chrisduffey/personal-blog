@@ -1,5 +1,5 @@
 // selctors
-const themeToggleBtn =document.querySelector(`#dark-light`)
+const themeToggleBtn =document.querySelector(`.dark-mode`)
 
 // state
 const theme = localStorage.getItem(`theme`);
@@ -20,4 +20,8 @@ themeToggleBtn.addEventListener(`click`, ( )=>{
         localStorage.removeItem(`theme`);
 
     }
+})
+
+document.getElementById("go-back").addEventListener("click", () =>{
+    history.back();
 })

@@ -1,5 +1,5 @@
 :root {
-    --clr-dark: #060a1463;
+    --clr-dark: #1e212b63;
     --clr-light: #fcfcfc;
 }
 
@@ -11,8 +11,8 @@
 }
 
 .dark-mode {
-    --clr-light: #070a13;
-    --clr-dark: #f1f5f9;
+    --clr-light: black;
+    --clr-dark: white;
 }
 body {
     background-color: var(--clr-light);
@@ -24,23 +24,80 @@ body {
 }
 nav {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     padding: 20px 3% 3% 3%;
-    align-items: flex-end;
+    align-items: center;
     border-bottom: 5px solid black;
+    border-top: 5px solid black;
+    margin-top: 2px;
 
 }
 
+nav h1{
+    display: flex;
+    justify-content: flex-start;
+       
+}
+
+nav div {
+    margin-left: 80%;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    color:whitesmoke
+}
 
 
+nav .dark-mode{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    font-size: 30px;
+    color: yellow;
+    background-color: lightgray;
 
-.
+} 
 
-footer ul li {
-    position: absolute;
+.container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+        
+}
+
+#title1 {
+    border: 5px solid black;
+    height: 100px;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
     bottom: 0;
-    height: 200px;
+    border-top: 5px #070a13 solid;
     width: 100%;
+    height:100px;
+    padding-top: 20px;
+}
 
+#made{
+    display: flex;
+    justify-content: center;
 
 }
+
+
+
+
+
+    
+    
+    
+
+
+
