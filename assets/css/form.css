@@ -1,5 +1,3 @@
-
-
 *{
     padding: 0;
     margin:0;
@@ -8,7 +6,7 @@
 }
 
 body{
-    height 100%
+    height: 100%;
 }
 
 
@@ -37,7 +35,7 @@ nav {
     border-right: 5px solid ;
     border-top:5px solid  ;
     padding: 5px;
-    background-image: url(../Images/waterfall.webp);
+    background-image: url(/repos/personal-blog/assets/Images/waterfall.webp);
     background-size: cover;
     background-position: center; 
     
