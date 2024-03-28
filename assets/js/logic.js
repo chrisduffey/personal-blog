@@ -1,7 +1,7 @@
 const mode = document.getElementById(`dark-mode`);
 const body = document.body;
 
-const darkMode = localStorage.getItem(`darkMode`)
+const darkBtn =document.querySelector(`dark-mode`)
 
 if (darkMode) {
     body.classList.add(`dark-mode`);
