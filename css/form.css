@@ -6,7 +6,7 @@
 *{
     padding: 0;
     margin:0;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     box-sizing: border-box;
 }
 
@@ -55,16 +55,14 @@ nav {
     padding: 5px;
     background-image: url(../Images/waterfall.webp);
     background-size: cover;
-    background-position: center;
-    
-    /* height: 50vh; */
-    
+    background-position: center; 
     
 }
 
 #darkLight {
+    display: flex;
     padding: 10px 20px;
-    background-color: rgb(10, 10, 10);
+    background-color:transparent;
     border: 1px solid #ccc;
     cursor: pointer;
 }

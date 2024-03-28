@@ -58,6 +58,9 @@ nav .dark-mode{
 
 } 
 
+.card {
+    border: 3px solid black;
+}
 .container{
     margin-top: 20px;
     height: 100vh;
