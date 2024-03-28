@@ -1,8 +1,17 @@
+/* :root {
+    --clr-dark: #1e212b63;
+    --clr-light: #fcfcfc;
+}
 
+.dark-mode {
+    --clr-light: black;
+    --clr-dark: white;
+}
 
-
-
-
+body {
+    background-color: var(--clr-light);
+    color: var(--clr-dark);
+} */
     
 
 

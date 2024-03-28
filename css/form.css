@@ -25,10 +25,9 @@ body {
 
 nav {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     padding: 30px 5% 5% 5%;
-    align-items: flex-end;
-    border-bottom: 5px solid black;
+    border-bottom: 5px solid ;
 
 }
 
@@ -50,8 +49,8 @@ nav {
     flex-direction:column ;
     justify-content: center; 
     width: 50%;
-    border-right: 5px solid black;
-    border-top:5px solid black ;
+    border-right: 5px solid ;
+    border-top:5px solid  ;
     padding: 5px;
     background-image: url(../Images/waterfall.webp);
     background-size: cover;
@@ -63,7 +62,7 @@ nav {
     display: flex;
     padding: 10px 20px;
     background-color:transparent;
-    border: 1px solid #ccc;
+    border: 1px solid ;
     cursor: pointer;
 }
 
@@ -82,18 +81,11 @@ h3 {
     color: white;
     letter-spacing: 1px;
     display: flex;
-    align-content: center;
     justify-content:center;
-    margin-left: 0px;
-    margin-top: 80px;
+   
 }
 
-/* .blog div img {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    width: 600px;
-    padding-left: 50px; */
+
     
 
 
