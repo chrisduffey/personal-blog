@@ -1,21 +1,47 @@
-/* :root {
-    --clr-dark: #1e212b63;
-    --clr-light: #fcfcfc;
+body {
+    background-color: #fff;
+    color: #333;
 }
 
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* :root {
+    --clr-dark: #000000;
+    --clr-light: #fcfcfc;
+}
+    
 .dark-mode {
     --clr-light: black;
     --clr-dark: white;
 }
-
 body {
     background-color: var(--clr-light);
     color: var(--clr-dark);
+}
+
+#darkLight.active {
+    background-color: #007bff;
+    color: white;
 } */
-    
 
-
-
+/* #darkLight {
+    transition: background-color 0.3s ease;
+}    */ 
 
 
 

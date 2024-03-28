@@ -1,7 +1,4 @@
-:root {
-    --clr-dark: #000000;
-    --clr-light: #fcfcfc;
-}
+
 
 *{
     padding: 0;
@@ -10,14 +7,7 @@
     box-sizing: border-box;
 }
 
-.dark-mode {
-    --clr-light: black;
-    --clr-dark: white;
-}
-body {
-    background-color: var(--clr-light);
-    color: var(--clr-dark);
-}
+
 
 nav {
     display: flex;

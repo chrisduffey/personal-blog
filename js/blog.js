@@ -18,26 +18,26 @@ function displayBlogs(){
 displayBlogs()
 const themeToggleBtn =document.querySelector(`.dark-mode`)
 
-// state
-const theme = localStorage.getItem(`theme`);
+// // state
+// const theme = localStorage.getItem(`theme`);
  
-// on mount - runs when browser loads
-if(theme) {
-document.body.classList.add(theme)
-}
+// // on mount - runs when browser loads
+// if(theme) {
+// document.body.classList.add(theme)
+// }
 
-// handlers
+// // handlers
 
-themeToggleBtn.addEventListener(`click`, ( )=>{
-    document.body.classList.toggle(`dark-mode`);
-    if (document.body.classList.contains(`dark-mode`)){
+// themeToggleBtn.addEventListener(`click`, ( )=>{
+//     document.body.classList.toggle(`dark-mode`);
+//     if (document.body.classList.contains(`dark-mode`)){
 
-    localStorage.setItem(`theme`, `dark-mode`);
-    } else{
-        localStorage.removeItem(`theme`);
+//     localStorage.setItem(`theme`, `dark-mode`);
+//     } else{
+//         localStorage.removeItem(`theme`);
 
-    }
-})
+//     }
+// })
 
 document.getElementById("go-back").addEventListener("click", () =>{
     location.href="index.html";

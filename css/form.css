@@ -1,7 +1,4 @@
-:root {
-    --clr-dark: #060a1463;
-    --clr-light: #fcfcfc;
-}
+
 
 *{
     padding: 0;
@@ -14,14 +11,7 @@ body{
     height 100%
 }
 
-.dark-mode {
-    --clr-light: #070a13;
-    --clr-dark: #f1f5f9;
-}
-body {
-    background-color: var(--clr-light);
-    color: var(--clr-dark);
-}
+
 
 nav {
     display: flex;
@@ -31,11 +21,6 @@ nav {
 
 }
 
-.logo {
-    font-size: 300%;
-    letter-spacing: 1px;
-    color: darkorange;
-}
 
 .blog {
     display: flex;
@@ -58,7 +43,7 @@ nav {
     
 }
 
-#darkLight {
+ #darkLight {
     display: flex;
     padding: 10px 20px;
     background-color:transparent;
@@ -66,14 +51,14 @@ nav {
     cursor: pointer;
 }
 
-#darkLight.active {
+/* #darkLight.active {
     background-color: #007bff;
     color: white;
-}
+} */
 
-#darkLight {
+/* #darkLight {
     transition: background-color 0.3s ease;
-} 
+}   */
 
 
 h3 {
