@@ -1,14 +1,16 @@
-const mode = document.getElementById(`dark-mode`);
-const body = document.body;
+const darkMode = document.querySelector(`#dark-mode`);
+const container = document.querySelector(`.toggle`);
 
-const darkBtn =document.querySelector(`dark-mode`)
+let mode = `dark`;
 
-if (darkMode) {
-    body.classList.add(`dark-mode`);
-}
-
-mode.onclick = function() {
-    body.classList.toggle(`dark-mode`);
-
-    localStorage.setItem(`darkMode`, body.classList.contains(`dark-mode`));
-}
+darkMode.addEventListener(`click`, function(){
+    if (mode === `dark`) {
+        mode = `light`;
+        container.setAttribute(`class`, `light`);
+    }
+    else {
+        mode = `dark`;
+        container.setAttribute(`class`, 'dark');
+    }
+})
+console.log(mode);

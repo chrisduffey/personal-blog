@@ -5,7 +5,7 @@ function handleSubmit (event) {
     const contentEl = document.getElementById(`content`).value.trim()
     if(!userEl || !titleEL || !contentEl){
         const errorEl = document.getElementById("error")
-        errorEl.textContent = "Plese fill all info"
+        errorEl.textContent = "Plese fill all in info"
         setTimeout(() => {
          errorEl.textContent = ""   
         }, 3000);
