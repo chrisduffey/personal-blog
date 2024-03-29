@@ -30,7 +30,7 @@ nav {
   border-right: 5px solid;
   border-top: 5px solid;
   padding: 5px;
-  background-image: url(`repos/personal-blog/assets/images/waterfall-gif-09.gif`);
+  background-image: url(../images/waterfall-gif-09.gif);
   background-size: cover;
   background-position: center;
 }
