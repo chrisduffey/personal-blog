@@ -35,7 +35,7 @@ nav {
     border-right: 5px solid ;
     border-top:5px solid  ;
     padding: 5px;
-    background-image: url(/repos/personal-blog/assets/Images/waterfall.webp);
+    background-image: url("/repos/personal-blog/assets/Images/waterfall.webp");
     background-size: cover;
     background-position: center; 
     
